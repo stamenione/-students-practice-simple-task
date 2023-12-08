@@ -1,0 +1,23 @@
+.form-add-restaurant {
+    margin: auto;
+    width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+    .form-add-restaurant {
+        width: 75%;
+    }
+}
+
+.remove-button {
+    float: right;
+}
+
+.add-more-meals-button {
+    margin-top: 1rem;
+    align-self: flex-start;
+}
+
+.time-picker {
+    background-color: rgb(255, 255, 255);
+}

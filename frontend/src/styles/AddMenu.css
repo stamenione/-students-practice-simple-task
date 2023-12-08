@@ -1,0 +1,53 @@
+.form-add-menu {
+    margin: auto;
+    width: 75%;
+}
+
+@media screen and (min-width: 768px) {
+    .form-add-menu {
+        width: 40%;
+    }
+}
+
+.nav-pills {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    max-width: 170px;
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: #fca311;
+}
+
+.nav {
+    max-width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        max-width: calc(100% - 30px);
+    }
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: orange;
+}
+
+.nav-fill .nav-item,
+.nav-fill > .nav-link {
+    text-align: center;
+}
+
+.react-calendar__month-view__days__day--weekend {
+    color: white;
+}

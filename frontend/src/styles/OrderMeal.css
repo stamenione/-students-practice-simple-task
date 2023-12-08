@@ -1,0 +1,94 @@
+.parent-element {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th {
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.td-size {
+    font-size: 19px;
+    width: 25%;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #da8e13;
+}
+
+
+.quantity-picker {
+    border: 0;
+}
+
+
+.quantity-display {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 0;
+    border-top: 0 solid #dbdbdb;
+    border-bottom: 0 solid #dbdbdb;
+    text-align: center;
+    opacity: 0.6;
+    border-radius: 4px;
+}
+
+.quantity-modifier {
+    height: 100%;
+    width: 3rem;
+    font-size: 0.95rem;
+    background: #f3f3f3;
+    color: #888;
+    border: 0 solid #dbdbdb;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+    .quantity-picker {
+        align-items: center;
+        display: inline-block;
+    }
+
+    .quantity-display {
+        font-size: 1rem;
+        padding: 0.2rem;
+    }
+
+    .quantity-modifier {
+        width: 4rem;
+        font-size: 0.7rem;
+    }
+}

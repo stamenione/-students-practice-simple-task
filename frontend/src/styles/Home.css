@@ -1,0 +1,24 @@
+.btn-home {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #fca311;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image {
+    max-width: 75%;
+}
+
+
+table tr:nth-child(odd) td {
+    background-color: rgba(255, 255, 255, 0.42);
+    color: white;
+}
+
+table tr:nth-child(even) td {
+    background-color: rgb(227, 227, 227);
+    color: black;
+}
